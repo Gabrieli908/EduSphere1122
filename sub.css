@@ -3,109 +3,101 @@
 
 
 body {
-    font-family: Arial, sans-serif;  
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .main-header {
-    background-color: #647b91;
-    color: white;
-    width: 100%;
-  }
-  
-  .logo-bar {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-bar h1 {
-    margin-left: 30px;
-    color: #2a1717;
-  }
-  
-  .logo {
-    max-height: 50px;
-    margin-left: 20px;
-  }
-  
-  
-  .nav-bar ul {
-    list-style: none;
-    display: flex;
-    padding: 15px 5px;
-    font-size: 1.375rem;
-    gap: 25px;
-    margin-left: 50px;
-    margin-top: 11px;
-  }
-  
-  .nav-bar li {
-    margin: 7px 20px;
-  }
-  
-  .nav-bar a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .nav-bar a:hover {
-    text-decoration: underline;
-    transition: background-color 0.3s ease;
-  }
-  
-  .boton-elegante {
-    margin-left: 115px;
-    padding: 11px 22px;
-    border: 2px solid #2c2c2c;
-    background-color: #1a1a1a;
-    color: #ffffff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 30px;
-    transition: all 0.4s ease;
-    outline: none;
-    position: relative;
-    overflow: hidden;
-    font-weight: bold;
-  }
-  
-  .boton-elegante::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(
-      circle,
-      rgba(255, 255, 255, 0.25) 0%,
-      rgba(255, 255, 255, 0) 70%
-    );
-    transform: scale(0);
-    transition: transform 0.5s ease;
-  }
-  
-  .boton-elegante:hover::after {
-    transform: scale(4);
-  }
-  
-  .boton-elegante:hover {
-    border-color: #666666;
-    background: #292929;
-  }
-  
+  font-family: Arial, sans-serif;  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 
+.main-header {
+  background-color: #647b91;
+  color: white;
+  width: 100%;
+}
+
+.logo-bar {
+  display: flex;
+  align-items: center;
+}
+
+.logo-bar h1 {
+  margin-left: 30px;
+  color: #2a1717;
+}
+
+.logo {
+  max-height: 50px;
+  margin-left: 20px;
+}
 
 
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  padding: 15px 5px;
+  font-size: 1.375rem;
+  gap: 25px;
+  margin-left: 50px;
+  margin-top: 11px;
+}
 
+.nav-bar li {
+  margin: 7px 20px;
+}
 
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
 
+.nav-bar a:hover {
+  text-decoration: underline;
+  transition: background-color 0.3s ease;
+}
+
+.boton-elegante {
+  margin-left: 115px;
+  padding: 11px 22px;
+  border: 2px solid #2c2c2c;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.boton-elegante::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+.boton-elegante:hover::after {
+  transform: scale(4);
+}
+
+.boton-elegante:hover {
+  border-color: #666666;
+  background: #292929;
+}
 
 
 
